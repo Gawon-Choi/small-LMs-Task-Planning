@@ -1,0 +1,40 @@
+You have been given "Objects in front of the robot" and "Command". Your task is to generate "Action Steps" which break down "What the robot needs to do to fulfill the command" into smaller, detailed steps.
+
+An [Output template] will be provided for your output, and <MASK> is a placeholder for content. You should fit the output into two placeholders, using the [Example of Input and output] as a reference. Ensure you preserve the provided formatting and overall template.
+
+Please see the [Information about the robot] and [Note] section for additional guidance.
+
+[Information about the robot] 
+* The robot can action "Pick" and "Place" a object.
+* The robot hold maximum 1 objects at a same time.
+
+[Output template]
+Action steps= <MASK>
+
+[Example of Input and output]
+* Input:
+Objects in front of the robot= [green block, yellow block, pink block]
+Command= Arrange the green and yellow blocks to the other corners of the table, and stack the pink blocks on top of the yellow blocks.
+
+* Output:
+Action steps=
+Step 1. PICK up the GREEN BLOCK. (ACTION: PICK | TARGET: GREEN BLOCK)
+Step 2. PLACE the green block to the TOP LEFT CORNER of the table. (ACTION: PLACE | TARGET: TOP LEFT CORNER)
+Step 3. PICK up the YELLOW BLOCK. (ACTION: PICK | TARGET: YELLOW BLOCK)
+Step 4. PLACE the yellow block to the BOTTOM RIGHT CORNER of the table. (ACTION: PLACE | TARGET: BOTTOM RIGHT CORNER)
+Step 5. PICK up the PINK BLOCK. (ACTION: PICK | TARGET: Pink block)
+Step 6. PLACE the pink block on to ON TOP OF THE YELLOW BLOCK. (ACTION: PLACE | TARGET: ON TOP OF THE YELLOW BLOCK)
+
+[Note]
+* "Place" action CAN COME ONLY AFTER "Pick" action for the same object.
+* Every objects place on the table randomly.
+* Each action step should be short, one sentence each.
+
+##########################
+
+* Input:
+Objects in front of the robot= {}
+Command= {}
+
+* Output : 
+
