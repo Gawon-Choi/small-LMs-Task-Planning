@@ -1,1 +1,1 @@
-### Small Language Models in Task Planning
+### Small Language Models for Task Planning in Robotics
