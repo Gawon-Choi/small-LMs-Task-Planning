@@ -1,1 +1,1 @@
-# small_LMs_task_planning
+### Potential of Small Language Models in Task Planning
