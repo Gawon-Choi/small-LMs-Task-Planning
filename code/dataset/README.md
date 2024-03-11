@@ -2,5 +2,5 @@ Download or generate a command-steps pairs dataset, and put the dataset in file 
 ```
 # Dataset path example
 domain= "Tabletop"
-dataset path= "./code/dataset/{}/Dataset.json".format(domain)
+dataset_path= "./code/dataset/{}/Dataset.json".format(domain)
 ```
