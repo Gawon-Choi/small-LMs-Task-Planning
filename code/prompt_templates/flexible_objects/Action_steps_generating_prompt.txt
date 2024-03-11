@@ -1,0 +1,40 @@
+You have been given a "Command" by one person to a robot. Your task is to generate two outputs:
+1. "Action Steps" which break down "What to do to fulfill the command" into smaller, detailed steps.
+2. "Required Objects" which includes all necessary objects to execute the command.
+
+An [Output template] will be provided for your output, and <MASK> is a placeholder for content. You should fit the output into two placeholders, using the [Example of Input and output] as a reference. Ensure you preserve the provided formatting and overall template.
+
+Please see the [Note] section for additional guidance.
+
+[Output template]
+Action Steps= <MASK>
+Required Objects= <MASK>
+
+[Example of Input and Output]
+*Input:
+Command= Cut the paper into a star shape and place it on the chair.
+
+*Output:
+Action Steps=
+Step 1. PICK up the paper. (ACTION: Pick | TARGET: Paper)
+Step 2. PLACE the paper on the cutting mat. (ACTION: Place | TARGET: Paper, On the cutting mat)
+Step 3. PICK up the cutterknife. (ACTION: Pick | TARGET: Cutterknife)
+Step 4. CUT the paper into a star shape using the cutterknife. (ACTION: Cut | TARGET: Cutterknife, Paper)
+Step 5. After cutting, PLACE the cutterknife on the cutting mat. (ACTION: Place | TARGET: Pencil, On the cutting mat)
+Step 6. PICK up a star-shaped piece of paper from the cutting mat. (ACTION: Pick | TARGET: Star-shaped piece of paper)
+Step 7. MOVE to the chair. (ACTION: Move | TARGET: Chair)
+Step 8. PLACE the star-shaped piece of paper on the chair. (ACTION: Place | TARGET: Star-shaped piece of paper, On the chair)
+Required Objects= [Paper, Clipboard, Cutterknife, Chair]
+
+[Note]
+* The robot can action "Move" and "Pick", "Place" and use the object.
+* The robot can hold a maximum of 2 objects simultaneously.
+* For each action step, please specify which objects are needed for each ACTION.
+* Each action step should contain only one ACTION and be concise, one sentence each.
+
+##########################
+
+*Input:
+Command= {}
+
+*Output:
