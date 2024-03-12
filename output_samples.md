@@ -110,7 +110,7 @@ These are outputs of fine-tuned GPT2-medium on our command-steps pairs dataset f
 ----
 
 * ### Kitchen Output Samples for GPT2-medium
-These are outputs of fine-tuned GPT2-medium on our command-steps pairs dataset for kitchen. we constrain the possible actions to pick, place, move, and utilize the objects. We conducted a survey, to evaluate whether small LMs finetuned on our datasets can plan effectively for high-level commands as LLMs. As a result, there is little difference in heuristic scores between GPT2-medium and GPT3.5, and even GPT2-medium scored more consistently higher.
+These are outputs of fine-tuned GPT2-medium on our command-steps pairs dataset for kitchen. We constrain the possible actions to pick, place, move, and utilize the objects. We conducted a survey, to evaluate whether small LMs finetuned on our datasets can plan effectively for high-level commands as LLMs. As a result, we found that there is little difference in scores between GPT2-medium and GPT3.5, and even GPT2-medium scored more consistently higher.
 <details>
   <summary> Output Samples </summary>
   
