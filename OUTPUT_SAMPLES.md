@@ -2,7 +2,7 @@ Output samples
 ----
 
 These are input-output samples for GPT2-medium on tabletop and kitchen domain. The inputs are an unseen command and the random objects including items required to execute the command. The outputs are action steps to execute the input command. If you want more details, please refer to our paper.
-
+ 
 ----
 
 * ### Tabletop Output Samples for GPT2-medium
