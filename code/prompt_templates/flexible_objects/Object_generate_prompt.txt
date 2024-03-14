@@ -15,4 +15,7 @@ There is the robot in the {}.
 * The robot can only action its arms.
 
 [Outputs]
-1. 
+1. {}
+: {}
+
+2.
