@@ -180,7 +180,8 @@ These are outputs of fine-tuned GPT2-medium on our command-steps pairs dataset f
   "Objects= ['Cucumber', 'Lettuce', 'Tray', 'Sink', 'Knife', 'Cup']
   Command= Slice the washed lettuce and place it on tray.
   Action steps="
-  
+
+  output=
   "Step 1. PICK up the lettuce. (ACTION: Pick | TARGET: Lettuce)
   Step 2. MOVE to the sink. (ACTION: Move | TARGET: Sink)
   Step 3. WASH the lettuce under running water. (ACTION: Wash | TARGET: Lettuce)
